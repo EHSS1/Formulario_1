@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Registro MTB Sobradinho DF</title>
+		<style>
+			body{
+				background-image: url("./img/mtb.JPG");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size:auto;
+				}
+		</style>
+	</head>
+	
+	<h1>Criar conta</h1>
+	<body>
+		<form method="post">
+			<fieldset>
+			<label>Seu nome</label>
+			<br/> 
+			<input type="text"
+			   placeholder="Nome e sobrenome"
+			   maxlength="80" size="20"/> 
+			<br/>
+			<br/>
+		
+			<legend>Sexo</legend>
+			<input type="radio"
+			   name="Sexo"
+			   value="Masculino"/>
+			<input type="radio"
+			   name="Sexo"
+			   value="Feminino"/>	
+			<label>Feminino<label/>	   
+		
+			<br/>
+			<br/>
+			<label>Data de Nascimento</label>
+			<br/>
+			<input type="date"
+			   min="2020-01-01"	
+			   max="2023-10-02"/>
+			<br/>
+			<br/>	
+		
+			<label>Hora do cadastro</label>
+			<br/>
+			<input type="time"
+			   min="12:00"
+			   max="18:00"/>
+			</fieldset>   
+			<br/>
+			<br/>
+			
+			<fieldset>
+			<label>Grupo de Ciclismo</label>
+			<br/>
+		
+			<select name="Grupo">
+			<option valeu="Bikemia">Bikemia</option>
+			<option valeu="Bikespirose">Bikespirose</option>
+			<option valeu="Bravus do Cerrado">Bravus do Cerrado</option>
+			<option valeu="Gordura">Gordura</option>
+			<option valeu="Mixiríca Bike Culture">Mixiríca Bike Culture</option>
+			<option valeu="Pedal Cor de Rosa">Pedal Cor de Rosa</option>
+			<option valeu="Thunnder">Thunnder</option>
+			</select>
+			<br/>
+			<br/>
+						
+			<legend>Informações do Grupo e Estilo</legend>
+			<input type="checkbox"
+			   name="Estilo"
+			   value="MTB"/>
+			<label>MTB</label>
+			<input type="checkbox"
+			   name="Estilo"
+			   value="Speed"/>
+			<label>Speed</label>
+			<br/>	
+			<br/>
+			
+			<label>Escolha a Cidade</label>
+			<br/>
+		
+			<select name="Cidade">
+			<option valeu="Brasília">Brasília</option>
+			<option valeu="Brazlândia">Brazlândia</option>
+			<option valeu="Candangolândia">Candangolândia</option>
+			<option valeu="Ceilândia">Ceilândia</option>
+			<option valeu="Gama">Gama</option>
+			<option valeu="Guará">Guará</option>
+			<option valeu="Mangueiral">Mangueiral</option>
+			<option valeu="Núcleo Bandeirante">Núcleo Bandeirante</option>
+			<option valeu="Paranoá">Paranoá</option>
+			<option valeu="Planaltina">Planaltina</option>
+			<option valeu="Recanto das Emas">Recanto das Emas</option>
+			<option valeu="Riacho Fundo I e II">Riacho Fundo I e II</option>
+			<option valeu="Samambaia">Samambaia</option>
+			<option valeu="Santa Maria">Santa Maria</option>
+			<option valeu="São Sebastião">São Sebastião</option>
+			<option valeu="Taguatinga">Taguatinga</option>
+			</select>
+			<br/>
+			<br/>
+			
+			<label>Escolha estado</label>
+			<br/>
+		
+			<select name="Estado">
+			<option valeu="AC">AC</option>
+			<option valeu="AL">AL</option>
+			<option valeu="AM">AM</option>
+			<option valeu="CE">CE</option>
+			<option valeu="DF">DF</option>
+			</select>
+			<br/>
+			<br/>
+			</fieldset>
+			<br/>
+			<br/>
+		
+			<label>Deixe seu comentário</label>
+			<br/>
+		
+			<textarea rows="5" cols="33"></textarea>
+			<br/>
+			<br/>
+		
+			<label>Email</label>
+			<br/>
+			<input type="email"
+			   maxlength="80"/>
+			<br/>
+			<br/>
+			<label>Senha</label>
+			<br/>
+			<input type="password"
+			placeholder="Pelo menos 6 caracteres"
+			minlength="6"
+			maxlength="10"/>
+			<br/>
+			<br/>
+		
+			<label>Insira a senha nova mais uma vez</label>
+			<br/>
+			<input type="password"
+			placeholder="Pelo menos 6 caracteres"
+			minlength="6"
+			maxlength="10"/>
+			<br/>
+			<br/>
+		
+			<input type="submit"
+			   value="Continuar"/>	
+			<input type="reset"
+			   value="Limpar">	
+			<br/>
+		
+		</form>
+	</body>
+</html>
